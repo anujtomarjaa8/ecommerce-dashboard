@@ -33,9 +33,7 @@
 
   "env": {
     "NODE_ENV": "production",
-    "JWT_SECRET": "@jwt_secret",
-    "DB_PATH": "/tmp/ecommerce.db",
-    "ALLOWED_ORIGIN": "@allowed_origin"
+    "DB_PATH": "/tmp/ecommerce.db"
   },
 
   "headers": [
