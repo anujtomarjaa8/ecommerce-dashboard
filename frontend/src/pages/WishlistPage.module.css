@@ -1,0 +1,16 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}

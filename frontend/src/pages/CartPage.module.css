@@ -1,0 +1,57 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.totalSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.totalLabel {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.totalValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.confirmation {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: #ecfdf5;
+  border-radius: 8px;
+  border: 1px solid #a7f3d0;
+}
+
+.confirmation h2 {
+  color: #065f46;
+  margin-bottom: 0.5rem;
+}
+
+.confirmation p {
+  color: #047857;
+}

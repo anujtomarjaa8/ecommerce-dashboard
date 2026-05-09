@@ -1,0 +1,53 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.empty {
+  color: #6b7280;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.editOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.editForm {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+.editTitle {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #1a1a2e;
+}
+
+.editError {
+  color: #dc2626;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
+.editActions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}

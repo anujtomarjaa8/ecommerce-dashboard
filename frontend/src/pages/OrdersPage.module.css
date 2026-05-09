@@ -1,0 +1,102 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 0;
+}
+
+.orderInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.orderId {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1a1a2e;
+}
+
+.orderDate {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.orderMeta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.orderTotal {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #2563eb;
+}
+
+.orderStatus {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: #ecfdf5;
+  color: #065f46;
+}
+
+.expandIcon {
+  font-size: 0.75rem;
+  color: #64748b;
+}
+
+.orderItems {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.itemsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.itemsTable th,
+.itemsTable td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+}
+
+.itemsTable th {
+  color: #64748b;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.itemsTable td {
+  color: #334155;
+}
+
+.emptyMessage {
+  text-align: center;
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}

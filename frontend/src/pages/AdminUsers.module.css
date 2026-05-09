@@ -1,0 +1,16 @@
+.container {
+  padding: 1.5rem;
+}
+
+.heading {
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  color: #1a1a2e;
+}
+
+.empty {
+  color: #6b7280;
+  font-size: 1rem;
+  text-align: center;
+  padding: 2rem;
+}

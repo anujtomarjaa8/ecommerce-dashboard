@@ -1,0 +1,12 @@
+# Never upload node_modules — Vercel installs them fresh during build
+**/node_modules
+
+# SQLite WAL/SHM sidecar files (not needed; DB is rebuilt at /tmp on boot)
+backend/db/*.db-shm
+backend/db/*.db-wal
+
+# Local dev artifacts
+**/.DS_Store
+**/*.log
+.vscode
+.kiro
