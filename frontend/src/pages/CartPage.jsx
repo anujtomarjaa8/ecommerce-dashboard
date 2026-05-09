@@ -26,6 +26,15 @@ export default function CartPage() {
     }
   };
 
+  const handleRemove = async (itemId) => {
+    try {
+      await api.delete(`/cart/${itemId}`);
+      setItems(items.filter((item) => item.id !== itemId));
+    } catch (err) {
+      setError(err.response?.data?.error?.message || 'Failed to remove item from cart');
+    }
+  };
+
   useEffect(() => {
     fetchCart();
   }, []);
@@ -87,7 +96,15 @@ export default function CartPage() {
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>Cart</h1>
-      <Table columns={columns} data={tableData} />
+      <Table
+        columns={columns}
+        data={tableData}
+        actions={(row) => (
+          <Button variant="danger" onClick={() => handleRemove(row.id)}>
+            Remove
+          </Button>
+        )}
+      />
       <div className={styles.totalSection}>
         <span className={styles.totalLabel}>Total:</span>
         <span className={styles.totalValue}>₹{totalPrice.toFixed(2)}</span>
